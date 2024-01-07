@@ -1,0 +1,25 @@
+/* users-list.component.css */
+.user-avatar {
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mat-grid-list {
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mat-paginator {
+  width: 100%;
+  padding-top: 1rem;
+}

@@ -1,0 +1,32 @@
+/* header.component.css */
+.header-search {
+  /* Align the search box, you can adjust as per your header design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-search input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.header-search input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .header-search input[type="text"] {
+    width: 90%;
+  }
+}
