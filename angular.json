@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-800Storage:build:production"
+              "buildTarget": "angular-800Storage:build:production"
             },
             "development": {
-              "browserTarget": "angular-800Storage:build:development"
+              "buildTarget": "angular-800Storage:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-800Storage:build"
+            "buildTarget": "angular-800Storage:build"
           }
         },
         "test": {
